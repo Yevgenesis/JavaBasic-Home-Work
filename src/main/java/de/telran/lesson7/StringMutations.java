@@ -1,4 +1,4 @@
-package de.telran.lesson3;
+package de.telran.lesson7;
 
 public class StringMutations {
     public static void main(String[] args) {
