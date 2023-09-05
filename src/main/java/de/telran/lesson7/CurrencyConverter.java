@@ -21,6 +21,6 @@ public class CurrencyConverter {
     }
 
     public static double roundToHundredths(double num) {
-        return Math.round(num * 100.0) / 100.0;
+        return Math.round(num * 100.0) / 100.0; // Это используют для банковского округления
     }
 }
