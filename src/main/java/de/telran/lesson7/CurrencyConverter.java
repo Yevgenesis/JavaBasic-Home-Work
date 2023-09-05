@@ -6,7 +6,7 @@ public class CurrencyConverter {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        // Курс в отношении к евро
+        // Курс в отношении к 1 евро
         double usd = 1.0755;
         double uah = 39.6694;
         double rub = 104.9026;
