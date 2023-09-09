@@ -31,3 +31,6 @@ public class IfElseSorting {
         System.out.println("По убыванию: " + max + " " + mid + " " + min);
     }
 }
+
+
+
