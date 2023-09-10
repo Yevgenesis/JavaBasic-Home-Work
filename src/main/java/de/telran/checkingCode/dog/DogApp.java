@@ -1,4 +1,4 @@
-package de.telran.for_testing;
+package de.telran.checkingCode.dog;
 
 public class DogApp {
     public static void main(String[] args) {
