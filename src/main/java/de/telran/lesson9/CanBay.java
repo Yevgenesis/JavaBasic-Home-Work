@@ -5,8 +5,6 @@ public class CanBay {
         boolean isEdekaOpen = false;
         boolean isReweOpen = true;
 
-
-
         System.out.println("Я могу купить еду, это " + canBay(isEdekaOpen, isReweOpen));
     }
 

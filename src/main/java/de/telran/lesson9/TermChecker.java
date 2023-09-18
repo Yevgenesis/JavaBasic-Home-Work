@@ -2,8 +2,8 @@ package de.telran.lesson9;
 
 public class TermChecker {
     public static void main(String[] args) {
-        int temperature1 = 100;
-        int temperature2 = 100;
+        int temperature1 = 134;
+        int temperature2 = 12;
 
         System.out.println("Прибор работает?: " + termChecker(temperature1, temperature2));
     }
