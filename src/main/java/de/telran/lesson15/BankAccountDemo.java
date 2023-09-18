@@ -5,10 +5,10 @@ public class BankAccountDemo {
         BankAccount myAccount = new BankAccount(21);
         int daysCount = 0;
 
-        while (myAccount.getBalance() != 0){
-            int withdraw = myAccount.withdrawAllowedAmount();
+        while (myAccount.getBalance() != 0) {
+            int withdrawn = myAccount.withdrawAllowedAmount();
             int balance = myAccount.getBalance();
-            System.out.println("Снято: " + withdraw + ", осталось: " + balance);
+            System.out.println("Снято: " + withdrawn + ", осталось: " + balance);
             daysCount++;
         }
 
