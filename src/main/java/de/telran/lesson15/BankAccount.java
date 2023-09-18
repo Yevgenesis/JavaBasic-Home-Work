@@ -12,13 +12,12 @@ public class BankAccount {
     }
 
     public int withdrawAllowedAmount() {
-        int tmp = balance;
+        int withdraw = balance;
         if (balance > 1) {
-            do {
-                tmp = tmp - 1;
-            } while (balance % tmp != 0);
+            do withdraw = withdraw - 1;
+            while (balance % withdraw != 0);
         }
-        balance = balance - tmp;
-        return tmp;
+        balance = balance - withdraw;
+        return withdraw;
     }
 }

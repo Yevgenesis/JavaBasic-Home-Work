@@ -13,7 +13,6 @@ public class BankAccountDemo {
         }
 
         System.out.println("Сняли за " + daysCount + getDaysString(daysCount));
-
     }
 
     public static String getDaysString(int days) {
