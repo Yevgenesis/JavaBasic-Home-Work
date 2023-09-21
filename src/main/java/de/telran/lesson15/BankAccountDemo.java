@@ -11,7 +11,6 @@ public class BankAccountDemo {
             System.out.println("Снято: " + withdrawn + ", осталось: " + balance);
             daysCount++;
         }
-
         System.out.println("Сняли за " + daysCount + getDaysString(daysCount));
     }
 
@@ -22,4 +21,5 @@ public class BankAccountDemo {
         else daysResult = days % 20;
         return daysResult == 1 ? " день" : daysResult >= 2 && daysResult <= 4 ? " дня" : " дней";
     }
+
 }
