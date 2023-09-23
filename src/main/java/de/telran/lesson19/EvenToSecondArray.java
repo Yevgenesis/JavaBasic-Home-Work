@@ -19,7 +19,7 @@ public class EvenToSecondArray {
         do {
             System.out.print("Input size of array bigger then 3: ");
             n = input.nextInt();
-            if (n <= 3) System.out.println("Wrong Input! Try Again please.");
+            if (n <= 3) System.out.println("Wrong input! Try again please.\n");
         } while (n <= 3);
 
  // Создание первого массива с произвольными числами

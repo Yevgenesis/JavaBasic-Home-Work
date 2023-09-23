@@ -15,6 +15,6 @@ public class WordsCounter {
             wordCount++;
         }while (true);
 
-        System.out.println("Количество слов: " + wordCount);
+        System.out.println("\nКоличество слов: " + wordCount);
     }
 }
